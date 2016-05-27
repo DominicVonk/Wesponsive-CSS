@@ -28,6 +28,8 @@
   }
   & [class*="cell-"] {
     float: left;
+    display:block;
+    min-height: 1px;
   }
   .columns {
     padding-left: 20px;
