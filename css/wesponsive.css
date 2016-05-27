@@ -1,6 +1,6 @@
 .row { width: 100%; margin: 0 auto; position: relative; }
 .row:after { content: ''; display: block; width: 0; height: 0; clear: both; }
-.row [class*="cell-"] { float: left; }
+.row [class*="cell-"] { float: left; display:block; min-height: 1px;}
 .row .columns { padding-left: 20px; padding-right: 20px; }
 .row .cell-1 { width: 8.33333%; }
 .row .offset-1 { left: 8.33333%; }
